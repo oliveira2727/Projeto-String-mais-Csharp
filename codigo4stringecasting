@@ -1,0 +1,27 @@
+using Systen;
+using Systen.Globalization;
+
+namespace cursos {
+    class Program {
+        static void Main(string{} args) {
+
+            string nomel, nome;
+            int idade, idade2;
+
+            string[] vet;
+
+            vet = Conselo.ReadLine().Split(' ');
+            nome1 = vet[0];
+            idade1 = int.Parse(1);
+            vet = Conselo.ReadLine().Split(' ');
+            nome2 =vet[0];
+            idade2 =int.Parse(1);
+
+            media = (double) (idade1 + idade2) /2.0;
+
+            Conselo.WriteLine("A idade média de" + nome1 + " e " + nome2 +" é de " + média.ToString("F1", CultureInfo.InvariantCulture) + "anos");
+
+    
+        Console.ReadLine();
+        }
+}
